@@ -1,0 +1,50 @@
+{
+  "name": "hb-zp-tools",
+  "description": "Homebridge ZP Tools",
+  "author": "Erik Baauw",
+  "license": "Apache-2.0",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./*": "./lib/*.js"
+  },
+  "keywords": [
+    "sonos",
+    "zoneplayer",
+    "sonos-zp",
+    "sonos-zoneplayer"
+  ],
+  "bin": {
+    "zp": "cli/zp.js"
+  },
+  "engines": {
+    "node": "^20||^18"
+  },
+  "dependencies": {
+    "hb-lib-tools": "~2.0.2",
+    "he": "^1.2.0",
+    "xml2js": "~0.6.2"
+  },
+  "scripts": {
+    "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaauw/hb-zp-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebaauw/hb-zp-tools/issues"
+  },
+  "homepage": "https://github.com/ebaauw/hb-zp-tools#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
+}
