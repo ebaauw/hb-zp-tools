@@ -8,7 +8,7 @@
 </span>
 
 ## Homebridge ZP Tools
-Copyright © 2016-2024 Erik Baauw. All rights reserved.
+Copyright © 2016-2025 Erik Baauw. All rights reserved.
 
 This repository provides a standalone installation of the command-line tools from [Homebridge ZP](https://github.com/ebaauw/homebridge-zp):
 
